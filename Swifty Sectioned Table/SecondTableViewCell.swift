@@ -12,7 +12,6 @@ class SecondTableViewCell: UITableViewCell
 {
 
     @IBOutlet var secondTitleLabel: UILabel?
-    @IBOutlet var secondSubTitleLabel: UILabel?
     @IBOutlet var secondThumbnailImageView: UIImageView?
     
     override func awakeFromNib()

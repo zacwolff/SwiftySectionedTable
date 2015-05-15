@@ -78,9 +78,9 @@ override func numberOfSectionsInTableView(tableView: UITableView) -> Int
         }
         else
         {
-            let identifier: String = "secondTableCell"
+            let identifiers: String = "secondTableCell"
             
-            var cell2:SecondTableViewCell = tableView.dequeueReusableCellWithIdentifier(identifier) as! SecondTableViewCell
+            var cell2:SecondTableViewCell = tableView.dequeueReusableCellWithIdentifier(identifiers) as! SecondTableViewCell
             
             cell2.secondTitleLabel!.text = secondTransfers[indexPath.row].title
             cell2.secondThumbnailImageView!.image = UIImage(named:secondTransfers[indexPath.row].thumbnails)
